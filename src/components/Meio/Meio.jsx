@@ -1,6 +1,6 @@
-import "./Perfil.css";
+import "./Meio.css";
 
-function Perfil(props) {
+function Meio(props) {
   return (
     <>
       <div className="card">
@@ -12,4 +12,4 @@ function Perfil(props) {
   );
 }
 
-export default Perfil;
+export default Meio;
