@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .valores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
