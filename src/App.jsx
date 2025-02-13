@@ -2,6 +2,7 @@ import "./App.css";
 
 import Header from "./components/Header/Header";
 import Meio from "./components/Meio/Meio";
+import Lado from './components/Lado/Lado';
 import Footer from "./components/Footer/Footer";
 
 import Agatha from "./assets/Agatha.png"
@@ -14,11 +15,10 @@ import Instagram from "./assets/insta.png"
 import Gmail from "./assets/gmail.png"
 import Logo from "./assets/logo.png";
 
-
 function App() {
   return (
     <>
-      <Header desafio="DESAFIO 1 de PROPS - REACT" logo={Logo}/>
+      <Header titulo="DESAFIO 1 de PROPS - REACT" logo={Logo}/>
 
       <Meio nome="Agatha França" img={Agatha} hobby="Hobby: Ler e assistir live da Shopee"/>
       <Meio nome="Ana Beatriz" img={Ana} hobby="Hobby: Fofocar as 3am"/>
@@ -26,6 +26,8 @@ function App() {
       <Meio nome="Juan Lopes" img={Juan} hobby="Hobby: Programar"/>
       <Meio nome="Lucas Marin" img={Lucas} hobby="Hobby: Cozinhar"/>
       <Meio nome="Zayra França" img={Zayra} hobby="Hobby: Dormir"/>
+
+      <Valores valor1="Companheirismo" valor2="Confiança" valor3="Resiliência"/>
 
       <Footer texto1="@JuanMOLopes 🤳" insta={Instagram} texto2="juan.molopes@gmail.com 💻" gmail={Gmail} texto3="O responsável pelo desenvolvimento foi JuanMOLopes.🎉"/>
     </>
