@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Header from "./components/Header/Header";
+import Titulo from "./components/Header/Header";
 import Meio from "./components/Meio/Meio";
 import Lado from './components/Lado/Lado';
 import Footer from "./components/Footer/Footer";
@@ -18,7 +18,7 @@ import Logo from "./assets/logo.png";
 function App() {
   return (
     <>
-      <Header titulo="DESAFIO 1 de PROPS - REACT" logo={Logo} />
+      <Titulo titulo="DESAFIO 1 de PROPS - REACT" logo={Logo}/>
 
       <div className="container">
         <div className="cards">
