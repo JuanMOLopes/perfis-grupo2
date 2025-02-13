@@ -1,14 +1,14 @@
 import "./Header.css";
 
-function Header(props) {
+function Titulo(props) {
   return (
     <>
-      <Header>
-        <img src={props.logo} className="Img" />
+      <header>
+        <img src={props.logo}  />
         <h1>{props.desafio}</h1>
-      </Header>
+      </header>
     </>
   );
 }
 
-export default Header;
+export default Titulo;

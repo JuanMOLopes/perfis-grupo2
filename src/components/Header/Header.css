@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(45deg, #000000, #9ddaec);
+    background: linear-gradient(45deg, #e3dfdf, #9ddaec);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -8,7 +8,7 @@ header {
 
 h1 {
     font-size: 28px;;
-    color: rgb(106, 26, 26);
+    color: rgb(227, 181, 181);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
