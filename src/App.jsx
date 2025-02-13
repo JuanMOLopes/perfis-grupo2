@@ -27,7 +27,7 @@ function App() {
       <Meio nome="Lucas Marin" img={Lucas} hobby="Hobby: Cozinhar"/>
       <Meio nome="Zayra França" img={Zayra} hobby="Hobby: Dormir"/>
 
-      <Valores valor1="Companheirismo" valor2="Confiança" valor3="Resiliência"/>
+      <Lado valor1="Companheirismo" valor2="Confiança" valor3="Resiliência"/>
 
       <Footer texto1="@JuanMOLopes 🤳" insta={Instagram} texto2="juan.molopes@gmail.com 💻" gmail={Gmail} texto3="O responsável pelo desenvolvimento foi JuanMOLopes.🎉"/>
     </>
