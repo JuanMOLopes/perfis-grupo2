@@ -4,8 +4,8 @@ function Header(props) {
   return (
     <>
       <Header>
-        <img src={props.img} alt="" />
-        <h1>{props.texto}</h1>
+        <img src={props.logo} className="Img" />
+        <h1>{props.desafio}</h1>
       </Header>
     </>
   );
