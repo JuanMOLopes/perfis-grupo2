@@ -1,5 +1,5 @@
 .alinhamento {
-    background-color: rgb(23, 23, 23);
+    background-color: #e3d2b6;
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -13,9 +13,10 @@
 
 .alinhamento p {
     margin: 10; 
+    margin-top: 10px;
     padding: 20px; 
-    background-color: gray;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     font-weight: bold;
     text-align: center; 
     border-radius: 10px;
@@ -29,7 +30,7 @@
 }
 
 .alinhamento p:hover{
-        color: #8beb90;
-        filter: drop-shadow(7px 7px 7px #a3f0a6);
+        color: #d49400;
+        filter: drop-shadow(7px 7px 7px #d49400);
         transition: 1.0s;
 }
