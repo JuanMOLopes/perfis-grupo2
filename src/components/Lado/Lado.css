@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 50vh;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -17,16 +17,17 @@
     font-size: 1em;
     color: #555555;
     margin: 10px 0;
-    background-color: gray;
+    background-color: rgb(167, 125, 92);
     color: white;
     padding: 10px;
     border-radius: 10px;
     width: 70%;
+    height: 10vh;
     transition: color 1.0s;
 }
 
 .valor:hover {
-    color: #8beb90;
-    filter: drop-shadow(7px 7px 7px #a3f0a6);
+    color: rgb(227, 191, 163);
+    filter: drop-shadow(7px 7px 7px rgb(124, 81, 49));
     transition: 1.0s;
 }

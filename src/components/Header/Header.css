@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    gap: 20px;
     background-color: #d8b6a0;
     padding: 20px;
     text-align: center;
@@ -22,4 +22,5 @@ header {
     width: 100px;
     height: auto;
     border-radius: 10px;
+    margin-left: 30%;
   }
