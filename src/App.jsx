@@ -4,7 +4,6 @@ import Titulo from "./components/Header/Header";
 import Meio from "./components/Meio/Meio";
 import Lado from "./components/Lado/Lado";
 import Footer from "./components/Footer/Footer";
-
 import Agatha from "./assets/Agatha.png";
 import Ana from "./assets/Ana.png";
 import Zayra from "./assets/Zayra.png";
@@ -14,6 +13,7 @@ import Juan from "./assets/Juan.png";
 import Instagram from "./assets/insta.png";
 import Gmail from "./assets/gmail.png";
 import Logo from "./assets/logo.png";
+
 
 function App() {
   return (
