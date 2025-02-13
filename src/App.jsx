@@ -5,6 +5,7 @@ import Zayra from "./assets/Zayra.png"
 import Anubis from "./assets/Anubis.png"
 import Lucas from "./assets/Lucas.png"
 import Juan from "./assets/Juan.png"
+import Logo from "./assets/logo.png";
 
 function App() {
   return (
