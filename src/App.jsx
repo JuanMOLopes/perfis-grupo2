@@ -26,7 +26,7 @@ function App() {
           <Meio nome="Ana Beatriz" img={Ana} hobby="Hobby: Fofocar as 3am" />
           <Meio nome="Anúbis" img={Anubis} hobby="Hobby: Programar" />
           <Meio nome="Juan Lopes" img={Juan} hobby="Hobby: Programar" />
-          <Meio nome="Lucas Marin" img={Lucas} hobby="Hobby: Cozinhar" />
+          <Meio nome="Lucas Marin" img={Lucas} hobby="Hobby: Jogar Tennis" />
           <Meio nome="Zayra França" img={Zayra} hobby="Hobby: Dormir" />
         </div>
 
